@@ -1,0 +1,69 @@
+:root{
+  --pc:black;
+  --sc:white;
+}
+
+html {
+  background-color:var(--pc);
+  color: var(--sc);
+}
+
+html .name {
+  color: var(--sc);
+  font-size: 70px;
+  text-align: center;
+}
+.cticons{
+  padding: 5px;
+  font-size: 30px;
+  display:inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: end;
+}
+.cticons:hover{
+  color:var(--sc);
+  text-shadow: 0 0 15px var(--sc);
+  font-size: 40px;
+  transition: 0.1s;
+}
+.flex{
+  display: flex;
+}
+
+.Navbar{
+  margin: 0px;
+  background: gray;
+}
+.nav{
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.nav:hover{
+  color: var(--pc);
+  border-radius: 5px;
+  box-sizing: border-box; 
+  transition: 0.5s; 
+}
+#usric{
+  margin-left:15px;
+}
+.arrow{
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  color: var(--sc);
+  font-size: 35px;
+}
+.arrow:hover{
+  text-shadow: 0 0 20px var(--sc);
+  font-size:45px;
+  transition: 0.5s;  
+}
+
+
